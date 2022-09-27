@@ -53,7 +53,7 @@ QUAST is used to check the quality of the assembly.
 
 :heavy_check_mark: QUAST: 5.0.2
 
-:hourglass: Reflexion to use MultiQC again
+:hourglass: to use MultiQC again
 
 ## Serotype
 
@@ -65,13 +65,30 @@ We use abricate with the database ecoh (--db ecoh) and threshold for the percent
 
 ## MLST
 
+We use mlst to looking for Escherichia coli Warwick MLST (--scheme ecoli) and Escherichia coli Pasteur MLST (--scheme ecoli_2) 
 
-:heavy_check_mark: abricate : 0.8.11
+*"This publication made use of the PubMLST website (https://pubmlst.org/) developed by Keith Jolley [(Jolley & Maiden 2010, BMC Bioinformatics, 11:595)](https://doi.org/10.1186/1471-2105-11-595) and sited at the University of Oxford.  The development of that website was funded by the Wellcome Trust".*
+
+[https://github.com/tseemann/mlst](https://github.com/tseemann/mlst)
+
+:heavy_check_mark: mlst : 2.16.2
 
 ## fimH
+
+We use FimTyper to know the allele of *fimH* with a threshold for %identity (-k 95.00) and a minimum length for the overlap (-l 0.60)
+
+[Development of a web tool for Escherichia coli subtyping based on fimh alleles. Roer L, Tchesnokova V, Allesoe R, Muradova M, Chattopadhyay S, Ahrenfeldt J, Thomsen MCF, Lund O, Hansen F, Hammerum AM, Sokurenko E, and Hasman H. J Clin Microbiol. 2017. 55(8): 2538-2543. https://doi.org/10.1128/JCM.00737-17 ](https://doi.org/10.1128/JCM.00737-17)
+
+[https://bitbucket.org/genomicepidemiology/fimtyper/src/master/](https://bitbucket.org/genomicepidemiology/fimtyper/src/master/)
+
+:heavy_check_mark: FimTyper : 1.1
+
 ## Clermontyping
 ## Virulence
 ## Resistance
+
+:hourglass: to change for resfinder
+
 ## Plasmides
 ## Plascopes
 ## Annotation
