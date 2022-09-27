@@ -23,7 +23,9 @@ Script usage :
 - [Assembly](#Assembly)
 - [Quality control of the assembly](#Quality-control-of-the-assembly)
 - [Serotype](#Serotype)
-
+- [MLST](#MLST)
+- [*fimH*](#fimH)
+- [Phylogroup](#Phylogroup)
 
 ## Create a list of samples and clean names of fastq files
 A list of the samples is created from the directory (options). If the samples are fastq files, we clean their names. Depending on the sequencing technology, the reads files can be shortened. For exemple, reads files from MiSeq have a name Name_S[0-9]\*_L001_R1_001.fastq.gz and could be shortened to Name_R1.fastq.gz . This pipeline clean names for HiSeq, MiSeq and NextSeq.
@@ -73,7 +75,7 @@ We use mlst to looking for Escherichia coli Warwick MLST (--scheme ecoli) and Es
 
 :heavy_check_mark: mlst : 2.16.2
 
-## fimH
+## *fimH*
 
 We use FimTyper to know the allele of *fimH* with a threshold for %identity (-k 95.00) and a minimum length for the overlap (-l 0.60)
 
@@ -83,7 +85,12 @@ We use FimTyper to know the allele of *fimH* with a threshold for %identity (-k 
 
 :heavy_check_mark: FimTyper : 1.1
 
-## Clermontyping
+## Phylogroup
+
+[1] Beghain J, Bridier-Nahmias A, Le Nagard H, E.Denamur and O.Clermont. Clermontyping: an easy-to-use and accurate in silico method for Escherichia genus strain phylotyping. Microb Genom. 2018 Jun 19. [PMID: 29916797] [PMCID: PMC6113867] [DOI: 10.1099/mgen.0.000192]
+[2] Clermont O, Dixit OVA, Vangchhia B, Condamine B, Dion S, Bridier-Nahmias A, Denamur E, Gordon D. Characterization and rapid identification of phylogroup G in Escherichia coli, a lineage with high virulence and antibiotic resistance potential. Environ Microbiol. 2019 Jun 12. [PMID: 31188527] [DOI: 10.11111/1462-2920.14713]
+
+
 ## Virulence
 ## Resistance
 
