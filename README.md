@@ -135,12 +135,28 @@ With Abricate, we are looking for genes of plasmids with thresholds for the perc
 
 :heavy_check_mark: abricate : 0.8.11
 
-:hourglass: To change for resfinder
-
 ## Classification of contigs to plasmid or chomosome
 
+We classify contigs from the assembly according to their location (i.e. plasmid or chromosome) with PlaScope. 
+
+[Royer G, Decousser JW, Branger C, Dubois M, Médigue C, Denamur E, Vallenet D. **PlaScope: a targeted approach to assess the plasmidome from genome assemblies at the species level**. Microb Genom. 2018 Sep;4(9):e000211. doi: 10.1099/mgen.0.000211. PMID: 30265232; PMCID: PMC6202455.https://doi.org/10.1099/mgen.0.000211](https://doi.org/10.1099/mgen.0.000211)
+
+[https://github.com/labgem/PlaScope](https://github.com/labgem/PlaScope)
+
+:heavy_check_mark: PlaScope : 2018
+
 ## Annotation
-### Clean gbk
+
+We annote the bacteria assembly (--gcode 11) with prokka.
+
+[Seemann T. **Prokka: rapid prokaryotic genome annotation**. Bioinformatics, 2014. PMID: 24642063 https://doi.org/10.1093/bioinformatics/btu153] (https://doi.org/10.1093/bioinformatics/btu153)
+
+[https://github.com/tseemann/prokka] (https://github.com/tseemann/prokka)
+
+:heavy_check_mark: Prokka : 1.14
+
+Sometime, we have a problem with the first line of each contig of the genebank file from prokka. The locus name is crushed by length of the sequence, so the script `cleanGBK_locusProkka.py` rename the locus without the coverage of spades output.
+
 ## Capsule systems
 https://research.pasteur.fr/en/tool/capsulefinder/
 ## *Shigella* or EHEC
