@@ -92,7 +92,7 @@ We use FimTyper to know the allele of *fimH* with a threshold for %identity (-k 
 
 [Clermont O, Dixit OVA, Vangchhia B, Condamine B, Dion S, Bridier-Nahmias A, Denamur E, Gordon D. Characterization and rapid identification of phylogroup G in Escherichia coli, a lineage with high virulence and antibiotic resistance potential. Environ Microbiol. 2019 Jun 12. PMID: 31188527 https://doi.org/10.1111/1462-2920.14713](https://doi.org/10.1111/1462-2920.14713)
 
-:heavy_check_mark: FimTyper : ClermonTyping : 21.03
+:heavy_check_mark: ClermonTyping : 21.03
 
 ## Virulence
 ## Resistance
