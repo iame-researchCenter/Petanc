@@ -107,7 +107,7 @@ We use the ClermonTyping to know the Phylogroup of *Escherichia coli* with all t
 
 With Abricate, we are looking for genes of virulences with thresholds for the percentage of identity (--minid 80) and coverage (--minicov 90). The database was done by Guilhem Royer in Kieffer *et al*, 2019. 
 
-[Kieffer N, Royer G, Decousser JW, Bourrel AS, Palmieri M, Ortiz De La Rosa JM, Jacquier H, Denamur E, Nordmann P, Poirel L. *mcr-9, an Inducible Gene Encoding an Acquired Phosphoethanolamine Transferase in Escherichia coli, and Its Origin*. Antimicrob Agents Chemother. 2019 Aug 23;63(9):e00965-19. doi: 10.1128/AAC.00965-19. Erratum in: Antimicrob Agents Chemother. 2019 Oct 22;63(11): PMID: 31209009; PMCID: PMC6709461. https://doi.org/10.1128/AAC.00965-19](https://doi.org/10.1128/AAC.00965-19)
+[Kieffer N, Royer G, Decousser JW, Bourrel AS, Palmieri M, Ortiz De La Rosa JM, Jacquier H, Denamur E, Nordmann P, Poirel L. **mcr-9, an Inducible Gene Encoding an Acquired Phosphoethanolamine Transferase in Escherichia coli, and Its Origin**. Antimicrob Agents Chemother. 2019 Aug 23;63(9):e00965-19. doi: 10.1128/AAC.00965-19. Erratum in: Antimicrob Agents Chemother. 2019 Oct 22;63(11): PMID: 31209009; PMCID: PMC6709461. https://doi.org/10.1128/AAC.00965-19](https://doi.org/10.1128/AAC.00965-19)
 
 [https://github.com/tseemann/abricate](https://github.com/tseemann/abricate)
 
@@ -115,12 +115,15 @@ With Abricate, we are looking for genes of virulences with thresholds for the pe
 
 ## Genes of resistance
 
+Currently, we use abricate with thresholds for the percentage of identity (--minid 80) and coverage (--minicov 90) and the database of ResFinder.
+
+[Florensa AF, Kaas RS, Clausen PTLC, Aytan-Aktug D, Aarestrup FM. **ResFinder - an open online resource for identification of antimicrobial resistance genes in next-generation sequencing data and prediction of phenotypes from genotypes**. Microb Genom. 2022 Jan;8(1):000748. doi: 10.1099/mgen.0.000748. PMID: 35072601; PMCID: PMC8914360.https://doi.org/10.1099/mgen.0.000748](https://doi.org/10.1099/mgen.0.000748)
 
 [https://github.com/tseemann/abricate](https://github.com/tseemann/abricate)
 
 :heavy_check_mark: abricate : 0.8.11
 
-:hourglass: to change for resfinder
+:hourglass: To change for resfinder
 
 ## Plasmid
 ## Classification of contigs to plasmid or chomosome
