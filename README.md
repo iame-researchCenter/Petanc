@@ -87,7 +87,7 @@ We use mlst to looking for Escherichia coli Warwick MLST (--scheme ecoli) and Es
 
 We use FimTyper to know the allele of *fimH* with a threshold for %identity (-k 95.00) and a minimum length for the overlap (-l 0.60)
 
-[Development of a web tool for Escherichia coli subtyping based on fimh alleles. Roer L, Tchesnokova V, Allesoe R, Muradova M, Chattopadhyay S, Ahrenfeldt J, Thomsen MCF, Lund O, Hansen F, Hammerum AM, Sokurenko E, and Hasman H. J Clin Microbiol. 2017. 55(8): 2538-2543. https://doi.org/10.1128/JCM.00737-17 ](https://doi.org/10.1128/JCM.00737-17)
+[Roer L, Tchesnokova V, Allesoe R, Muradova M, Chattopadhyay S, Ahrenfeldt J, Thomsen MCF, Lund O, Hansen F, Hammerum AM, Sokurenko E, and Hasman H. J  Development of a web tool for Escherichia coli subtyping based on fimh alleles. Clin Microbiol. 2017. 55(8): 2538-2543. https://doi.org/10.1128/JCM.00737-17 ](https://doi.org/10.1128/JCM.00737-17)
 
 [https://bitbucket.org/genomicepidemiology/fimtyper/src/master/](https://bitbucket.org/genomicepidemiology/fimtyper/src/master/)
 
