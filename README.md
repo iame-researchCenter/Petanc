@@ -126,6 +126,17 @@ Currently, we use abricate with thresholds for the percentage of identity (--min
 :hourglass: To change for resfinder
 
 ## Plasmid
+
+With Abricate, we are looking for genes of plasmids with thresholds for the percentage of identity (--minid 80) and coverage (--minicov 90). The database is PlasmidFinder_DB. 
+
+[Carattoli A, Zankari E, García-Fernández A, Voldby Larsen M, Lund O, Villa L, Møller Aarestrup F, Hasman H. **In silico detection and typing of plasmids using PlasmidFinder and plasmid multilocus sequence typing**. Antimicrob Agents Chemother. 2014 Jul;58(7):3895-903. doi: 10.1128/AAC.02412-14. Epub 2014 Apr 28. PMID: 24777092; PMCID: PMC4068535. https://doi.org/10.1128/AAC.02412-14](https://doi.org/10.1128/AAC.02412-14)
+
+[https://github.com/tseemann/abricate](https://github.com/tseemann/abricate)
+
+:heavy_check_mark: abricate : 0.8.11
+
+:hourglass: To change for resfinder
+
 ## Classification of contigs to plasmid or chomosome
 
 ## Annotation
