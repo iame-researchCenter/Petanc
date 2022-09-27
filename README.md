@@ -149,7 +149,7 @@ We classify contigs from the assembly according to their location (i.e. plasmid 
 
 We annote the bacteria assembly (--gcode 11) with prokka.
 
-[Seemann T. **Prokka: rapid prokaryotic genome annotation**. Bioinformatics, 2014. PMID: 24642063 https://doi.org/10.1093/bioinformatics/btu153] (https://doi.org/10.1093/bioinformatics/btu153)
+[Seemann T. **Prokka: rapid prokaryotic genome annotation**. Bioinformatics, 2014. PMID: 24642063 https://doi.org/10.1093/bioinformatics/btu153](https://doi.org/10.1093/bioinformatics/btu153)
 
 [https://github.com/tseemann/prokka] (https://github.com/tseemann/prokka)
 
