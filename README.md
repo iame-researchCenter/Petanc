@@ -26,6 +26,14 @@ Script usage :
 - [MLST](#MLST)
 - [*fimH*](#fimH)
 - [Phylogroup](#Phylogroup)
+- [Genes of virulences](#Genes-of-virulences)
+- [Genes of resistance](#Genes-of-resistance)
+- [Plasmides](#Plasmides)
+- [Classification of contigs to plasmid or chomosome](#Classification-of-contigs-to-plasmid-or-chomosome)
+- [Annotation](#Annotation)
+- [Capsule systems](#Capsule-systems)
+- [*Shigella or EHEC*](#Shigella-or-EHEC)
+- [Layout Excel](#Layout-Excel)
 
 ## Create a list of samples and clean names of fastq files
 A list of the samples is created from the directory (options). If the samples are fastq files, we clean their names. Depending on the sequencing technology, the reads files can be shortened. For exemple, reads files from MiSeq have a name Name_S[0-9]\*_L001_R1_001.fastq.gz and could be shortened to Name_R1.fastq.gz . This pipeline clean names for HiSeq, MiSeq and NextSeq.
@@ -95,19 +103,21 @@ We use the ClermonTyping to know the Phylogroup of *Escherichia coli* with all t
 
 :heavy_check_mark: ClermonTyping : 21.03
 
-## Virulence
+## Genes of virulences
 
 
 
 
-## Resistance
+## Genes of resistance
 
 :hourglass: to change for resfinder
 
-## Plasmides
-## Plascopes
+## Plasmid
+## Classification of contigs to plasmid or chomosome
+
 ## Annotation
 ### Clean gbk
-## Capsule
-## Shigella or EHEC
+## Capsule systems
+https://research.pasteur.fr/en/tool/capsulefinder/
+## *Shigella* or EHEC
 ## Layout excel
