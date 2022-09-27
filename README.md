@@ -158,6 +158,23 @@ We annote the bacteria assembly (--gcode 11) with prokka.
 Sometime, we have a problem with the first line of each contig of the genebank file from prokka. The locus name is crushed by length of the sequence, so the script `cleanGBK_locusProkka.py` rename the locus without the coverage of spades output.
 
 ## Capsule systems
+
+We detects capsule systems with CapsuleFinder for the model "ABC", "GroupIV_e_stricte", "GroupIV_f", "GroupIV_s_stricte", "PGA", "Syn_cps3", "Syn_has" and "Wzy_stricte".
+
+[Rendueles O, Garcia-Garcerà M, Néron B, Touchon M, Rocha EPC. **Abundance and co-occurrence of extracellular capsules increase environmental breadth: Implications for the emergence of pathogens**. PLoS Pathog. 2017 Jul 24;13(7):e1006525. doi: 10.1371/journal.ppat.1006525.https://doi.org/10.1371/journal.ppat.1006525](https://doi.org/10.1371/journal.ppat.1006525)
+
 https://research.pasteur.fr/en/tool/capsulefinder/
+
+:heavy_check_mark: CapsuleFinder : 02/02/2018
+
 ## *Shigella* or EHEC
+
+With Abricate, we are looking for the gene *ipaH3* of *Shigella flexneri* Y strain PE57 (CP042980.1 from 1400701 to 1402416) with thresholds for the percentage of identity (--minid 95) and coverage (--minicov 95).
+
+[https://github.com/tseemann/abricate](https://github.com/tseemann/abricate)
+
+:heavy_check_mark: abricate : 0.8.11
+
 ## Layout excel
+
+All the data are compiled by the script `petanc_layout.py` to make an Excel file. 
