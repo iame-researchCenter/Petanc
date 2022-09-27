@@ -1,6 +1,6 @@
 ![petanc](https://user-images.githubusercontent.com/47217665/192289530-60a0d40b-604c-44f7-9815-ceb7ddbe56c4.png)
 
-**BLABLA : This pipeline clean reads and ...   for *Escherichia coli* strain** PE 
+**The pipeline PETANC for “Plasmid-Exploration Typing Assembly N’Contig-ordering” ... This pipeline clean reads and ...   for *Escherichia coli* strain** PE 
 
 # Dependencies Installation
 Petanc is a pipeline used on the cdc of IAME. Our cdc use Docker. Each software have been installed first in container.
@@ -105,10 +105,20 @@ We use the ClermonTyping to know the Phylogroup of *Escherichia coli* with all t
 
 ## Genes of virulences
 
+With Abricate, we are looking for genes of virulences with thresholds for the percentage of identity (--minid 80) and coverage (--minicov 90). The database was done by Guilhem Royer in Kieffer *et al*, 2019. 
 
+[Kieffer N, Royer G, Decousser JW, Bourrel AS, Palmieri M, Ortiz De La Rosa JM, Jacquier H, Denamur E, Nordmann P, Poirel L. mcr-9, an Inducible Gene Encoding an Acquired Phosphoethanolamine Transferase in Escherichia coli, and Its Origin. Antimicrob Agents Chemother. 2019 Aug 23;63(9):e00965-19. doi: 10.1128/AAC.00965-19. Erratum in: Antimicrob Agents Chemother. 2019 Oct 22;63(11): PMID: 31209009; PMCID: PMC6709461. https://doi.org/10.1128/AAC.00965-19] (https://doi.org/10.1128/AAC.00965-19)
 
+[https://github.com/tseemann/abricate](https://github.com/tseemann/abricate)
+
+:heavy_check_mark: abricate : 0.8.11
 
 ## Genes of resistance
+
+
+[https://github.com/tseemann/abricate](https://github.com/tseemann/abricate)
+
+:heavy_check_mark: abricate : 0.8.11
 
 :hourglass: to change for resfinder
 
