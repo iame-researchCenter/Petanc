@@ -87,9 +87,12 @@ We use FimTyper to know the allele of *fimH* with a threshold for %identity (-k 
 
 ## Phylogroup
 
-[1] Beghain J, Bridier-Nahmias A, Le Nagard H, E.Denamur and O.Clermont. Clermontyping: an easy-to-use and accurate in silico method for Escherichia genus strain phylotyping. Microb Genom. 2018 Jun 19. [PMID: 29916797] [PMCID: PMC6113867] [DOI: 10.1099/mgen.0.000192]
-[2] Clermont O, Dixit OVA, Vangchhia B, Condamine B, Dion S, Bridier-Nahmias A, Denamur E, Gordon D. Characterization and rapid identification of phylogroup G in Escherichia coli, a lineage with high virulence and antibiotic resistance potential. Environ Microbiol. 2019 Jun 12. [PMID: 31188527] [DOI: 10.11111/1462-2920.14713]
 
+[Beghain J, Bridier-Nahmias A, Le Nagard H, E.Denamur and O.Clermont. Clermontyping: an easy-to-use and accurate in silico method for Escherichia genus strain phylotyping. Microb Genom. 2018 Jun 19. PMID: 29916797 PMCID: PMC6113867 https://doi.org/10.1099/mgen.0.000192 ](https://doi.org/10.1099/mgen.0.000192)
+
+[Clermont O, Dixit OVA, Vangchhia B, Condamine B, Dion S, Bridier-Nahmias A, Denamur E, Gordon D. Characterization and rapid identification of phylogroup G in Escherichia coli, a lineage with high virulence and antibiotic resistance potential. Environ Microbiol. 2019 Jun 12. PMID: 31188527 https://doi.org/10.1111/1462-2920.14713](https://doi.org/10.1111/1462-2920.14713)
+
+:heavy_check_mark: FimTyper : ClermonTyping : 21.03
 
 ## Virulence
 ## Resistance
