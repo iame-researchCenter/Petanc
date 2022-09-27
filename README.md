@@ -41,7 +41,7 @@ A list of the samples is created from the directory (options). If the samples ar
 ## Quality Control of the raw reads
 We used fastQC to generated a quality control of each file (with default parameters) of reads and MultiQC for visualize all fastQC output in one glance.
 
-[Philip Ewels, Måns Magnusson, Sverker Lundin, Max Käller, _MultiQC: summarize analysis results for multiple tools and samples in a single report_, Bioinformatics, Volume 32, Issue 19, 1 October 2016, Pages 3047–3048, https://doi.org/10.1093/bioinformatics/btw354 ](https://doi.org/10.1093/bioinformatics/btw354)
+[Philip Ewels, Måns Magnusson, Sverker Lundin, Max Käller, **MultiQC: summarize analysis results for multiple tools and samples in a single report**, Bioinformatics, Volume 32, Issue 19, 1 October 2016, Pages 3047–3048, https://doi.org/10.1093/bioinformatics/btw354 ](https://doi.org/10.1093/bioinformatics/btw354)
 
 :heavy_check_mark: FastQC 
 :heavy_check_mark: QUAST: 5.0.2
@@ -58,7 +58,7 @@ The assembly is done with Spades
 ## Quality control of the assembly
 QUAST is used to check the quality of the assembly. 
 
-[Alexey Gurevich, Vladislav Saveliev, Nikolay Vyahhi, Glenn Tesler, QUAST: quality assessment tool for genome assemblies, Bioinformatics, Volume 29, Issue 8, 15 April 2013, Pages 1072–1075, https://doi.org/10.1093/bioinformatics/btt086](https://doi.org/10.1093/bioinformatics/btt086)
+[Alexey Gurevich, Vladislav Saveliev, Nikolay Vyahhi, Glenn Tesler, **QUAST: quality assessment tool for genome assemblies**, Bioinformatics, Volume 29, Issue 8, 15 April 2013, Pages 1072–1075, https://doi.org/10.1093/bioinformatics/btt086](https://doi.org/10.1093/bioinformatics/btt086)
 
 
 :heavy_check_mark: QUAST: 5.0.2
@@ -87,7 +87,7 @@ We use mlst to looking for Escherichia coli Warwick MLST (--scheme ecoli) and Es
 
 We use FimTyper to know the allele of *fimH* with a threshold for %identity (-k 95.00) and a minimum length for the overlap (-l 0.60)
 
-[Roer L, Tchesnokova V, Allesoe R, Muradova M, Chattopadhyay S, Ahrenfeldt J, Thomsen MCF, Lund O, Hansen F, Hammerum AM, Sokurenko E, and Hasman H. J  Development of a web tool for Escherichia coli subtyping based on fimh alleles. Clin Microbiol. 2017. 55(8): 2538-2543. https://doi.org/10.1128/JCM.00737-17 ](https://doi.org/10.1128/JCM.00737-17)
+[Roer L, Tchesnokova V, Allesoe R, Muradova M, Chattopadhyay S, Ahrenfeldt J, Thomsen MCF, Lund O, Hansen F, Hammerum AM, Sokurenko E, and Hasman H. J  **Development of a web tool for Escherichia coli subtyping based on fimh alleles**, Clin Microbiol. 2017. 55(8): 2538-2543. https://doi.org/10.1128/JCM.00737-17 ](https://doi.org/10.1128/JCM.00737-17)
 
 [https://bitbucket.org/genomicepidemiology/fimtyper/src/master/](https://bitbucket.org/genomicepidemiology/fimtyper/src/master/)
 
@@ -97,9 +97,9 @@ We use FimTyper to know the allele of *fimH* with a threshold for %identity (-k 
 
 We use the ClermonTyping to know the Phylogroup of *Escherichia coli* with all the contigs (--threshold 0)
 
-[Beghain J, Bridier-Nahmias A, Le Nagard H, E.Denamur and O.Clermont. Clermontyping: an easy-to-use and accurate in silico method for Escherichia genus strain phylotyping. Microb Genom. 2018 Jun 19. PMID: 29916797 PMCID: PMC6113867 https://doi.org/10.1099/mgen.0.000192 ](https://doi.org/10.1099/mgen.0.000192)
+[Beghain J, Bridier-Nahmias A, Le Nagard H, E.Denamur and O.Clermont. **Clermontyping: an easy-to-use and accurate in silico method for Escherichia genus strain phylotyping**. Microb Genom. 2018 Jun 19. PMID: 29916797 PMCID: PMC6113867 https://doi.org/10.1099/mgen.0.000192 ](https://doi.org/10.1099/mgen.0.000192)
 
-[Clermont O, Dixit OVA, Vangchhia B, Condamine B, Dion S, Bridier-Nahmias A, Denamur E, Gordon D. Characterization and rapid identification of phylogroup G in Escherichia coli, a lineage with high virulence and antibiotic resistance potential. Environ Microbiol. 2019 Jun 12. PMID: 31188527 https://doi.org/10.1111/1462-2920.14713](https://doi.org/10.1111/1462-2920.14713)
+[Clermont O, Dixit OVA, Vangchhia B, Condamine B, Dion S, Bridier-Nahmias A, Denamur E, Gordon D. **Characterization and rapid identification of phylogroup G in Escherichia coli, a lineage with high virulence and antibiotic resistance potential**. Environ Microbiol. 2019 Jun 12. PMID: 31188527 https://doi.org/10.1111/1462-2920.14713](https://doi.org/10.1111/1462-2920.14713)
 
 :heavy_check_mark: ClermonTyping : 21.03
 
@@ -107,7 +107,7 @@ We use the ClermonTyping to know the Phylogroup of *Escherichia coli* with all t
 
 With Abricate, we are looking for genes of virulences with thresholds for the percentage of identity (--minid 80) and coverage (--minicov 90). The database was done by Guilhem Royer in Kieffer *et al*, 2019. 
 
-[Kieffer N, Royer G, Decousser JW, Bourrel AS, Palmieri M, Ortiz De La Rosa JM, Jacquier H, Denamur E, Nordmann P, Poirel L. mcr-9, an Inducible Gene Encoding an Acquired Phosphoethanolamine Transferase in Escherichia coli, and Its Origin. Antimicrob Agents Chemother. 2019 Aug 23;63(9):e00965-19. doi: 10.1128/AAC.00965-19. Erratum in: Antimicrob Agents Chemother. 2019 Oct 22;63(11): PMID: 31209009; PMCID: PMC6709461. https://doi.org/10.1128/AAC.00965-19](https://doi.org/10.1128/AAC.00965-19)
+[Kieffer N, Royer G, Decousser JW, Bourrel AS, Palmieri M, Ortiz De La Rosa JM, Jacquier H, Denamur E, Nordmann P, Poirel L. *mcr-9, an Inducible Gene Encoding an Acquired Phosphoethanolamine Transferase in Escherichia coli, and Its Origin*. Antimicrob Agents Chemother. 2019 Aug 23;63(9):e00965-19. doi: 10.1128/AAC.00965-19. Erratum in: Antimicrob Agents Chemother. 2019 Oct 22;63(11): PMID: 31209009; PMCID: PMC6709461. https://doi.org/10.1128/AAC.00965-19](https://doi.org/10.1128/AAC.00965-19)
 
 [https://github.com/tseemann/abricate](https://github.com/tseemann/abricate)
 
