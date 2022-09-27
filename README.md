@@ -1,6 +1,6 @@
 ![petanc](https://user-images.githubusercontent.com/47217665/192289530-60a0d40b-604c-44f7-9815-ceb7ddbe56c4.png)
 
-**The pipeline PETANC for “Plasmid-Exploration Typing Assembly N’Contig-ordering” ... This pipeline clean reads and ...   for *Escherichia coli* strain** PE 
+**The pipeline PETANC for “Plasmid-Exploration Typing Assembly N’Contig-ordering” is a pipeline for Illumina paired-end reads of *Escherichia coli* strain.**
 
 # Dependencies Installation
 Petanc is a pipeline used on the cdc of IAME. Our cdc use Docker. Each software have been installed first in container.
