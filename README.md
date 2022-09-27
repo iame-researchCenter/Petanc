@@ -177,4 +177,4 @@ With Abricate, we are looking for the gene *ipaH3* of *Shigella flexneri* Y stra
 
 ## Layout excel
 
-All the data are compiled by the script `petanc_layout.py` to make an Excel file. 
+All the data are synthesized by the script `petanc_layout.py` to make an Excel file. 
