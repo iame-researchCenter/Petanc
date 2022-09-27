@@ -143,7 +143,7 @@ We classify contigs from the assembly according to their location (i.e. plasmid 
 
 [https://github.com/labgem/PlaScope](https://github.com/labgem/PlaScope)
 
-:heavy_check_mark: PlaScope : 2018
+:heavy_check_mark: PlaScope : 1.3.1
 
 ## Annotation
 
