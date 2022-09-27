@@ -87,6 +87,7 @@ We use FimTyper to know the allele of *fimH* with a threshold for %identity (-k 
 
 ## Phylogroup
 
+We use the ClermonTyping to know the Phylogroup of *Escherichia coli* with all the contigs (--threshold 0)
 
 [Beghain J, Bridier-Nahmias A, Le Nagard H, E.Denamur and O.Clermont. Clermontyping: an easy-to-use and accurate in silico method for Escherichia genus strain phylotyping. Microb Genom. 2018 Jun 19. PMID: 29916797 PMCID: PMC6113867 https://doi.org/10.1099/mgen.0.000192 ](https://doi.org/10.1099/mgen.0.000192)
 
@@ -95,6 +96,10 @@ We use FimTyper to know the allele of *fimH* with a threshold for %identity (-k 
 :heavy_check_mark: ClermonTyping : 21.03
 
 ## Virulence
+
+
+
+
 ## Resistance
 
 :hourglass: to change for resfinder
