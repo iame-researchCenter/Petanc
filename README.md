@@ -41,7 +41,7 @@ A list of the samples is created from the directory (options). If the samples ar
 ## Quality Control of the raw reads
 We used fastQC to generated a quality control of each file (with default parameters) of reads and MultiQC for visualize all fastQC output in one glance.
 
-[Philip Ewels, Måns Magnusson, Sverker Lundin, Max Käller, MultiQC: summarize analysis results for multiple tools and samples in a single report, Bioinformatics, Volume 32, Issue 19, 1 October 2016, Pages 3047–3048, https://doi.org/10.1093/bioinformatics/btw354 ](https://doi.org/10.1093/bioinformatics/btw354)
+[Philip Ewels, Måns Magnusson, Sverker Lundin, Max Käller, _MultiQC: summarize analysis results for multiple tools and samples in a single report_, Bioinformatics, Volume 32, Issue 19, 1 October 2016, Pages 3047–3048, https://doi.org/10.1093/bioinformatics/btw354 ](https://doi.org/10.1093/bioinformatics/btw354)
 
 :heavy_check_mark: FastQC 
 :heavy_check_mark: QUAST: 5.0.2
