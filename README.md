@@ -43,17 +43,29 @@ We used fastQC to generated a quality control of each file (with default paramet
 
 [Philip Ewels, Måns Magnusson, Sverker Lundin, Max Käller, **MultiQC: summarize analysis results for multiple tools and samples in a single report**, Bioinformatics, Volume 32, Issue 19, 1 October 2016, Pages 3047–3048, https://doi.org/10.1093/bioinformatics/btw354 ](https://doi.org/10.1093/bioinformatics/btw354)
 
-:heavy_check_mark: FastQC 
+[https://github.com/s-andrews/FastQC](https://github.com/s-andrews/FastQC)
+
+[https://github.com/ewels/MultiQC](https://github.com/ewels/MultiQC)
+
+:heavy_check_mark: FastQC: 0.11.9 
 :heavy_check_mark: QUAST: 5.0.2
 
 ## Trimming
 Trimgalore is used to trim and filer the paired-end reads (--paired). We trim low-quality ends (-q 30) from reads in addition to adapter removal. We discard reads that became shorter (-t 50). We keep reads unpaired (--retain_umpaired).
 
+[https://github.com/FelixKrueger/TrimGalore](https://github.com/FelixKrueger/TrimGalore)
+
 ## Quality control of the clean reads
 The quality control after trimming is exactly the same before trimmming.
 
 ## Assembly
-The assembly is done with Spades
+The assembly is done with Spades with the option careful.
+
+[Bankevich A, Nurk S, Antipov D, Gurevich AA, Dvorkin M, Kulikov AS, Lesin VM, Nikolenko SI, Pham S, Prjibelski AD, Pyshkin AV, Sirotkin AV, Vyahhi N, Tesler G, Alekseyev MA, Pevzner PA. **SPAdes: a new genome assembly algorithm and its applications to single-cell sequencing**. J Comput Biol. 2012 May;19(5):455-77. doi: 10.1089/cmb.2012.0021. Epub 2012 Apr 16. PMID: 22506599; PMCID: PMC3342519. https://doi.org/10.1089/cmb.2012.0021](https://doi.org/10.1089/cmb.2012.0021)
+
+[https://github.com/ablab/spades](https://github.com/ablab/spades)
+
+:heavy_check_mark: SPAdes : 3.15.4
 
 ## Quality control of the assembly
 QUAST is used to check the quality of the assembly. 
