@@ -55,6 +55,8 @@ Trimgalore is used to trim and filer the paired-end reads (--paired). We trim lo
 
 [https://github.com/FelixKrueger/TrimGalore](https://github.com/FelixKrueger/TrimGalore)
 
+:heavy_check_mark: Trimgalore: 0.6.7
+
 ## Quality control of the clean reads
 The quality control after trimming is exactly the same before trimmming.
 
