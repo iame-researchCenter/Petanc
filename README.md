@@ -89,7 +89,7 @@ We use abricate with the database ecoh (--db ecoh) and threshold for the percent
 
 ## MLST
 
-We use mlst to looking for Escherichia coli Warwick MLST (--scheme ecoli) and Escherichia coli Pasteur MLST (--scheme ecoli_2) 
+We use mlst to looking for Escherichia coli Warwick MLST (--scheme ecoli_achtman_4) and Escherichia coli Pasteur MLST (--scheme ecoli) 
 
 *"This publication made use of the PubMLST website (https://pubmlst.org/) developed by Keith Jolley [(Jolley & Maiden 2010, BMC Bioinformatics, 11:595)](https://doi.org/10.1186/1471-2105-11-595) and sited at the University of Oxford.  The development of that website was funded by the Wellcome Trust".*
 
