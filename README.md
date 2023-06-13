@@ -133,7 +133,7 @@ Currently, we use ResFinder.
 
 [Bortolaia V, Kaas RS, Ruppe E, Roberts MC, Schwarz S, Cattoir V, Philippon A, Allesoe RL, Rebelo AR, Florensa AR, Fagelhauer L, Chakraborty T, Neumann B, Werner G, Bender JK, Stingl K, Nguyen M, Coppens J, Xavier BB, Malhotra-Kumar S, Westh H, Pinholt M, Anjum MF, Duggett NA, Kempf I, Nykasenoja S, Olkkola S, Wieczorek K, Amaro A, Clemente L, Mossong J, Losch S, Ragimbeau C, Lund O, Aarestrup FM. **ResFinder 4.0 for predictions of phenotypes from genotypes.**. Journal of Antimicrobial Chemotherapy. 2020 Aug 11. PMID: 32780112 https://doi.org/10.1093/jac/dkaa345](https://doi.org/10.1093/jac/dkaa345)
 
-[https://bitbucket.org/genomicepidemiology/resfinder/src/master/](https://github.com/tseemann/abricate](https://bitbucket.org/genomicepidemiology/resfinder/src/master/)
+[https://bitbucket.org/genomicepidemiology/resfinder/src/master/](https://bitbucket.org/genomicepidemiology/resfinder/src/master/)
 
 :heavy_check_mark: Resfinder : 4.2.2
 
