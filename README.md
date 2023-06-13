@@ -129,15 +129,13 @@ With Abricate, we are looking for genes of virulences with thresholds for the pe
 
 ## Genes of resistance
 
-Currently, we use abricate with thresholds for the percentage of identity (--minid 80) and coverage (--minicov 90) and the database of ResFinder.
+Currently, we use ResFinder.
 
-[Florensa AF, Kaas RS, Clausen PTLC, Aytan-Aktug D, Aarestrup FM. **ResFinder - an open online resource for identification of antimicrobial resistance genes in next-generation sequencing data and prediction of phenotypes from genotypes**. Microb Genom. 2022 Jan;8(1):000748. doi: 10.1099/mgen.0.000748. PMID: 35072601; PMCID: PMC8914360.https://doi.org/10.1099/mgen.0.000748](https://doi.org/10.1099/mgen.0.000748)
+[Bortolaia V, Kaas RS, Ruppe E, Roberts MC, Schwarz S, Cattoir V, Philippon A, Allesoe RL, Rebelo AR, Florensa AR, Fagelhauer L, Chakraborty T, Neumann B, Werner G, Bender JK, Stingl K, Nguyen M, Coppens J, Xavier BB, Malhotra-Kumar S, Westh H, Pinholt M, Anjum MF, Duggett NA, Kempf I, Nykasenoja S, Olkkola S, Wieczorek K, Amaro A, Clemente L, Mossong J, Losch S, Ragimbeau C, Lund O, Aarestrup FM. **ResFinder 4.0 for predictions of phenotypes from genotypes.**. Journal of Antimicrobial Chemotherapy. 2020 Aug 11. PMID: 32780112 https://doi.org/10.1093/jac/dkaa345](https://doi.org/10.1093/jac/dkaa345)
 
-[https://github.com/tseemann/abricate](https://github.com/tseemann/abricate)
+[https://bitbucket.org/genomicepidemiology/resfinder/src/master/]([https://github.com/tseemann/abricate](https://bitbucket.org/genomicepidemiology/resfinder/src/master/))
 
-:heavy_check_mark: abricate : 0.8.11
-
-:hourglass: To change for resfinder
+:heavy_check_mark: Resfinder : 4.2.2
 
 ## Plasmid
 
